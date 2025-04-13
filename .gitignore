@@ -1,0 +1,8 @@
+# ignore all ds_store folders
+.DS_Store
+# ignore all ds_store files
+.DS_Store
+# ignore all ds_store files
+*.DS_Store
+# ignore all ds_store files
+*.DS_Store

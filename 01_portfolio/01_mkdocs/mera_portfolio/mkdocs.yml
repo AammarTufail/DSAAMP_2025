@@ -1,0 +1,78 @@
+site_name: Aammar Tufail (Data Scientist, Machine Learning Engineer)
+site_description: A collection of my projects
+site_author: Dr. Aammar Tufail
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: cyan
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: cyan
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Projects: projects.md
+  - Blogs: blogs.md
+  - Skills: skills.md
+  - Resume: resume.md
+  - About: about.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - footnotes
+
+plugins:
+  - search
+  # REMOVE this line below – it's incorrect and causes errors
+  # - mkdocs-material
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/aammartufail
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/aammar-tufail
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/aammar_tufail
+
+# Optional GitHub repo integration (uncomment when needed)
+# repo_url: https://github.com/aammartufail/portfolio
+# repo_name: GitHub
+# edit_uri: edit/main/docs/
+
+extra_css:
+  - stylesheets/extra.css  # Optional: Add your own CSS styles here
+
+extra_javascript:
+  - javascripts/extra.js   # Optional: Add your own JS scripts here
