@@ -9,6 +9,16 @@ This mentorship program/course will continue for 4 months, covering the  advance
   <img src="./00_resources/images/01_poster.png" alt="DSAAMP Banner" width="100%">
 </a>
 
+## Content:
+- [4-Months of Data Science to AI Agents Mentorship Program (DSAAMP)](#4-months-of-data-science-to-ai-agents-mentorship-program-dsaamp)
+  - [Content:](#content)
+  - [Program Goals:](#program-goals)
+  - [Pre-requisites:](#pre-requisites)
+  - [1. Making a Portfolio:](#1-making-a-portfolio)
+    - [1.1. Portfolio Making using mkdocs:](#11-portfolio-making-using-mkdocs)
+
+
+
 ## Program Goals:
 The Data Science to AI Agents Mentorship Program aims to:
 1. Master Advanced Data Science – Equip you with cutting-edge data science techniques and best practices.
