@@ -16,6 +16,7 @@ This mentorship program/course will continue for 4 months, covering the  advance
   - [Pre-requisites:](#pre-requisites)
   - [1. Making a Portfolio:](#1-making-a-portfolio)
     - [1.1. Portfolio Making using mkdocs:](#11-portfolio-making-using-mkdocs)
+  - [2. Environments for Data Science and AI](#2-environments-for-data-science-and-ai)
 
 
 
@@ -72,6 +73,10 @@ The Data Science to AI Agents Mentorship Program aims to:
 
 Here is the complete guide to creating a portfolio using mkdocs-[Guide to make portfolio using Mkdocs](./01_portfolio/mkdocs-github-pages-guide.md)
 
+## 2. Environments for Data Science and AI
+
+Environments are isolated spaces where you can install packages and dependencies without affecting the global Python installation or other environments. Here you can see:
+>[A complet guide conda/miniconda/mamba/python environments](./02_environments/enviornments_in_python.md)
 
 
 
