@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Your Cart</title>
+</head>
+<body>
+    <h1>Your Cart</h1>
+    {% if cart_items %}
+        <ul>
+            {% for item in cart_items %}
+                <li>{{ item.name }} - ${{ '%.2f'|format(item.price) }}</li>
+            {% endfor %}
+        </ul>
+        <p>Total: ${{ '%.2f'|format(total) }}</p>
+        <a href="/">Continue Booking</a>
+    {% else %}
+        <p>Your cart is empty.</p>
+        <a href="/">Book Treatments</a>
+    {% endif %}
+</body>
+</html>

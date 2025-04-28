@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Book Treatments</title>
+</head>
+<body>
+    <h1>Book Beauty Treatments</h1>
+    <form method="post">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.treatments.label }}<br>
+            {{ form.treatments(size=5) }}
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+</body>
+</html>
