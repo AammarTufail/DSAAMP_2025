@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>&#x1f433; &ast;&ast;Docker Containers for AI and Data Science Developers&ast;&ast;</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="-docker-containers-for-ai-and-data-science-developers">🐳 <strong>Docker Containers for AI and Data Science Developers</strong></h1>
+<p>Docker is a powerful tool that allows you to package your applications and their dependencies into a single container.</p>
+<ul>
+<li>
+<p>This makes it easy to deploy and run your applications in any environment, whether it's on your local machine, in the cloud, or on a server.</p>
+</li>
+<li>
+<p>Docker is especially useful for AI and data science developers, as it allows you to create reproducible environments for your projects. This means that you can share your code with others and be sure that it will run the same way on their machines as it does on yours.</p>
+</li>
+<li>
+<p>Docker is also importat for MLOps, as it allows you to create containers for your machine learning models. This makes it easy to deploy your models in production and scale them as needed.</p>
+</li>
+<li>
+<p><a href="#-docker-containers-for-ai-and-data-science-developers">🐳 <strong>Docker Containers for AI and Data Science Developers</strong></a></p>
+<ul>
+<li><a href="#-dockerizing-your-streamlit-app-beginner-friendly-guide">🐳 Dockerizing Your Streamlit App: Beginner Friendly Guide</a></li>
+<li><a href="#-step-0-prerequisites">✅ Step 0: Prerequisites</a>
+<ul>
+<li><a href="#-install-python">🐍 Install Python</a></li>
+<li><a href="#-install-pip-comes-with-python">📦 Install pip (comes with Python)</a>
+<ul>
+<li><a href="#update-pip-optional">Update pip (optional):</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#-step-1-set-up-your-project">📦 Step 1: Set Up Your Project</a></li>
+<li><a href="#-step-2-set-up-virtual-environment-venv">🐍 Step 2: Set Up Virtual Environment (venv)</a></li>
+<li><a href="#-step-3-install-streamlit--freeze-requirements">📦 Step 3: Install Streamlit &amp; Freeze Requirements</a></li>
+<li><a href="#-step-4-create-a-dockerfile">🐳 Step 4: Create a Dockerfile</a></li>
+<li><a href="#-step-5-create-a-dockerignore-file">🚫 Step 5: Create a .dockerignore file</a></li>
+<li><a href="#-step-6-install-docker">🧱 Step 6: Install Docker</a>
+<ul>
+<li><a href="#61-install-docker-in-lunux">6.1 Install Docker in lunux</a></li>
+</ul>
+</li>
+<li><a href="#-step-7-build-the-docker-image">🔨 Step 7: Build the Docker Image</a></li>
+<li><a href="#%EF%B8%8F-step-8-run-the-docker-container">▶️ Step 8: Run the Docker Container</a>
+<ul>
+<li><a href="#to-run-the-container-in-detached-mode-background">To run the container in detached mode (background):</a></li>
+</ul>
+</li>
+<li><a href="#-summary">🧠 Summary</a></li>
+<li><a href="#docker-hub"><strong>Docker-Hub</strong></a></li>
+<li><a href="#-push-your-image-to-docker-hub">🚀 Push Your Image to Docker Hub</a>
+<ul>
+<li><a href="#1-log-in-to-docker-hub">1. Log in to Docker Hub</a>
+<ul>
+<li><a href="#11-create-a-docker-hub-repository">1.1 Create a Docker Hub repository</a></li>
+</ul>
+</li>
+<li><a href="#2-tag-your-image">2. Tag Your Image</a></li>
+<li><a href="#3-push-the-image">3. Push the Image</a></li>
+</ul>
+</li>
+<li><a href="#docker-cheatsheet">Docker Cheatsheet</a></li>
+<li><a href="#%EF%B8%8F-troubleshooting">🛠️ Troubleshooting</a>
+<ul>
+<li><a href="#common-issues">Common Issues</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="-dockerizing-your-streamlit-app-beginner-friendly-guide">🐳 Dockerizing Your Streamlit App: Beginner Friendly Guide</h2>
+<p>This guide walks you through converting your local <strong>Streamlit app using virtual environment (venv)</strong> into a <strong>Docker container</strong>, so it can run anywhere, even without Python installed!</p>
+<hr>
+<h2 id="-step-0-prerequisites">✅ Step 0: Prerequisites</h2>
+<p>Make sure you have the following installed:</p>
+<h3 id="-install-python">🐍 Install Python</h3>
+<ul>
+<li>Download from: <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></li>
+<li>Make sure to select <strong>&quot;Add Python to PATH&quot;</strong> during installation.</li>
+</ul>
+<h3 id="-install-pip-comes-with-python">📦 Install pip (comes with Python)</h3>
+<p>Check it:</p>
+<pre><code class="language-bash">pip --version
+<span class="hljs-comment"># or</span>
+pip3 --version <span class="hljs-comment"># for macOS/Linux</span>
+</code></pre>
+<h4 id="update-pip-optional">Update pip (optional):</h4>
+<pre><code class="language-bash"><span class="hljs-comment"># for windows</span>
+python -m pip install --upgrade pip
+<span class="hljs-comment"># for macos/linux</span>
+python3 -m pip install --upgrade pip
+</code></pre>
+<hr>
+<h2 id="-step-1-set-up-your-project">📦 Step 1: Set Up Your Project</h2>
+<p>Create your app folder:</p>
+<pre><code class="language-bash"><span class="hljs-built_in">mkdir</span> my-streamlit-app
+<span class="hljs-built_in">cd</span> my-streamlit-app
+</code></pre>
+<p>Add your Streamlit app code:</p>
+<pre><code class="language-bash"><span class="hljs-built_in">touch</span> app.py
+</code></pre>
+<p>Paste a sample app:</p>
+<pre><code class="language-python"><span class="hljs-comment"># app.py</span>
+<span class="hljs-comment"># write in terminal</span>
+cat &gt;&gt; app.py
+
+<span class="hljs-keyword">import</span> streamlit <span class="hljs-keyword">as</span> st
+
+st.title(<span class="hljs-string">&quot;My First Dockerized Streamlit App with [codanics](www.codanics.com)&quot;</span>)
+st.write(<span class="hljs-string">&quot;Hello from inside Docker!&quot;</span>)
+</code></pre>
+<blockquote>
+<p>Press <code>CTRL+D</code> to save and exit.
+You can also use any text editor to create <code>app.py</code> and paste the code.</p>
+</blockquote>
+<hr>
+<h2 id="-step-2-set-up-virtual-environment-venv">🐍 Step 2: Set Up Virtual Environment (venv)</h2>
+<pre><code class="language-bash">python -m venv .venv
+</code></pre>
+<p>Activate the environment:</p>
+<ul>
+<li>On macOS/Linux:<pre><code class="language-bash"><span class="hljs-built_in">source</span> .venv/bin/activate
+</code></pre>
+</li>
+<li>On Windows:<pre><code class="language-bash">.venv\Scripts\activate
+</code></pre>
+</li>
+</ul>
+<hr>
+<h2 id="-step-3-install-streamlit--freeze-requirements">📦 Step 3: Install Streamlit &amp; Freeze Requirements</h2>
+<pre><code class="language-bash">pip install streamlit
+pip freeze &gt; requirements.txt
+</code></pre>
+<p>This creates a file <code>requirements.txt</code>.</p>
+<hr>
+<h2 id="-step-4-create-a-dockerfile">🐳 Step 4: Create a Dockerfile</h2>
+<p>Create a file called <code>Dockerfile</code> in your project folder:</p>
+<pre><code class="language-bash"><span class="hljs-built_in">touch</span> Dockerfile
+</code></pre>
+<p>Add the following content:</p>
+<pre><code class="language-Dockerfile"><span class="hljs-comment"># Use official Python image</span>
+<span class="hljs-keyword">FROM</span> python:<span class="hljs-number">3.10</span>-slim
+
+<span class="hljs-comment"># Set working directory inside container</span>
+<span class="hljs-keyword">WORKDIR</span><span class="language-bash"> /app</span>
+
+<span class="hljs-comment"># Copy app code to container</span>
+<span class="hljs-keyword">COPY</span><span class="language-bash"> . /app</span>
+
+<span class="hljs-comment"># Install dependencies</span>
+<span class="hljs-keyword">RUN</span><span class="language-bash"> pip install --no-cache-dir -r requirements.txt</span>
+
+<span class="hljs-comment"># Expose Streamlit default port</span>
+<span class="hljs-keyword">EXPOSE</span> <span class="hljs-number">8501</span>
+
+<span class="hljs-comment"># Run the app</span>
+<span class="hljs-keyword">CMD</span><span class="language-bash"> [<span class="hljs-string">&quot;streamlit&quot;</span>, <span class="hljs-string">&quot;run&quot;</span>, <span class="hljs-string">&quot;app.py&quot;</span>, <span class="hljs-string">&quot;--server.port=8501&quot;</span>, <span class="hljs-string">&quot;--server.address=0.0.0.0&quot;</span>]</span>
+</code></pre>
+<hr>
+<h2 id="-step-5-create-a-dockerignore-file">🚫 Step 5: Create a .dockerignore file</h2>
+<p>Ignore unnecessary files by creating a <code>.dockerignore</code> file:</p>
+<pre><code class="language-bash"><span class="hljs-built_in">touch</span> .dockerignore
+</code></pre>
+<p>Add the following content:</p>
+<pre><code>__pycache__/
+*.pyc
+.venv/
+.env
+</code></pre>
+<hr>
+<h2 id="-step-6-install-docker">🧱 Step 6: Install Docker</h2>
+<p>Download Docker Desktop from:<br>
+👉 <a href="https://www.docker.com/products/docker-desktop">https://www.docker.com/products/docker-desktop</a></p>
+<blockquote>
+<p>You need to create a Docker account to download.
+Follow the installation instructions for your OS (Windows, macOS, or Linux).</p>
+</blockquote>
+<h3 id="61-install-docker-in-lunux">6.1 Install Docker in lunux</h3>
+<pre><code class="language-bash"><span class="hljs-comment"># for ubuntu</span>
+sudo apt-get update
+sudo apt-get install docker.io
+<span class="hljs-comment"># after installation</span>
+sudo systemctl start docker
+sudo systemctl <span class="hljs-built_in">enable</span> docker
+<span class="hljs-comment"># check docker version</span>
+docker --version
+</code></pre>
+<blockquote>
+<ul>
+<li>For other Linux distributions, refer to the official Docker documentation.</li>
+</ul>
+</blockquote>
+<p>Once installed, verify:</p>
+<pre><code class="language-bash">docker --version
+</code></pre>
+<p><code>Docker version 28.0.4, build b8034c0</code></p>
+<blockquote>
+<p>If you see a version number, Docker is installed correctly.</p>
+</blockquote>
+<p><strong>Trouble Shooting:</strong></p>
+<blockquote>
+<ul>
+<li>If you see an error, restart your computer and try again.</li>
+<li>If you still see an error, check Docker Desktop is running.</li>
+<li>If you see a message about &quot;WSL 2 backend&quot;, follow the instructions to enable it.</li>
+<li>If you see a message about &quot;Docker Desktop is starting&quot;, wait for it to finish.</li>
+<li>If you see a message about &quot;Docker Desktop is running&quot;, you're good to go!</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="-step-7-build-the-docker-image">🔨 Step 7: Build the Docker Image</h2>
+<p>In your project folder (with Dockerfile):</p>
+<blockquote>
+<ol>
+<li>Run Docker Desktop.</li>
+<li><strong>Make sure Docker Desktop is running.</strong></li>
+<li>Open a terminal or command prompt.</li>
+<li>Navigate to your project folder.</li>
+<li>Run the following command to build the Docker image:</li>
+</ol>
+</blockquote>
+<pre><code class="language-bash">docker build -t my-streamlit-app .
+</code></pre>
+<blockquote>
+<ul>
+<li><code>-t my-streamlit-app</code> gives your image a name.</li>
+<li><code>.</code> specifies the current directory as the build context.</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>you can also create a docker image which suits your choice of platform such as linux /arm64 or linux/amd64 or windows/amd64  or windows/arm64 or linux/arm/v7 or linux/arm/v6 etc.</p>
+</blockquote>
+<pre><code class="language-bash"><span class="hljs-comment"># check docker image</span>
+docker buildx <span class="hljs-built_in">ls</span>
+<span class="hljs-comment"># for ubuntu x86_64 </span>
+docker buildx build --platform linux/amd64 -t my-streamlit-app .
+</code></pre>
+<p><strong>remove images</strong></p>
+<pre><code class="language-bash"><span class="hljs-comment"># list my docker images</span>
+docker images
+<span class="hljs-comment"># remove my docker image</span>
+docker rmi my-streamlit-app:latest
+<span class="hljs-comment"># remove my docker image by id</span>
+docker rmi e518336f912b -f 
+</code></pre>
+<pre><code>Do check your platform version using the following commands:
+```bash
+# for linux
+uname -m
+# for windows
+wmic os get osarchitecture
+# for macos
+uname -m
+</code></pre>
+<hr>
+<blockquote>
+<p><strong>Note:</strong> Allow vscode to use other apps if asked.</p>
+<ul>
+<li>If you see a message like <code>Sending build context to Docker daemon  3.072kB</code>, it means Docker is building the image.</li>
+</ul>
+</blockquote>
+<hr>
+<blockquote>
+<ul>
+<li>This command may take a few minutes to complete, depending on your internet speed and system performance.</li>
+<li>You will see a lot of output as Docker builds the image.</li>
+<li>If you see a message like <code>Successfully built &lt;image_id&gt;</code>, your image is ready!</li>
+</ul>
+</blockquote>
+<p>Check if image is available in Docker:</p>
+<pre><code class="language-bash">docker images
+</code></pre>
+<blockquote>
+<p>You should see <code>my-streamlit-app</code> in the list of images.</p>
+</blockquote>
+<hr>
+<h2 id="️-step-8-run-the-docker-container">▶️ Step 8: Run the Docker Container</h2>
+<pre><code class="language-bash">docker run -p 8501:8501 my-streamlit-app
+</code></pre>
+<blockquote>
+<ul>
+<li><code>-p 8501:8501</code> maps port 8501 on your host to port 8501 in the container.</li>
+<li><code>my-streamlit-app</code> is the name of your image.</li>
+<li>This command runs the container in the foreground, so you can see the logs.</li>
+<li>If you see a message like <code>Starting up server</code>, your app is running!</li>
+</ul>
+</blockquote>
+<p>Visit:<br>
+👉 <a href="http://localhost:8501">http://localhost:8501</a></p>
+<p>🎉 Your Streamlit app is now running inside a Docker container!</p>
+<h3 id="to-run-the-container-in-detached-mode-background">To run the container in detached mode (background):</h3>
+<pre><code class="language-bash">docker run --name MAtufail -d -p 8501:8501 my-streamlit-app
+</code></pre>
+<blockquote>
+<ul>
+<li><code>-d</code> runs the container in detached mode (in the background).</li>
+<li><code>--name MAtufail</code> gives your container a name (optional).</li>
+<li>You can check running containers with:</li>
+</ul>
+</blockquote>
+<pre><code class="language-bash">docker ps
+</code></pre>
+<blockquote>
+<ul>
+<li>To stop the container, use:</li>
+</ul>
+</blockquote>
+<pre><code class="language-bash">docker stop MAtufail
+</code></pre>
+<blockquote>
+<ul>
+<li>To remove the container, use:</li>
+</ul>
+</blockquote>
+<pre><code class="language-bash">docker <span class="hljs-built_in">rm</span> MAtufail
+</code></pre>
+<hr>
+<h2 id="-summary">🧠 Summary</h2>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Create venv</td>
+<td><code>python -m venv .venv</code></td>
+</tr>
+<tr>
+<td>Activate venv</td>
+<td><code>source .venv/bin/activate</code> or <code>.venv\Scripts\activate</code></td>
+</tr>
+<tr>
+<td>Install Streamlit</td>
+<td><code>pip install streamlit</code></td>
+</tr>
+<tr>
+<td>Save requirements</td>
+<td><code>pip freeze &gt; requirements.txt</code></td>
+</tr>
+<tr>
+<td>Build Docker image</td>
+<td><code>docker build -t my-streamlit-app .</code></td>
+</tr>
+<tr>
+<td>Run Docker container</td>
+<td><code>docker run -p 8501:8501 my-streamlit-app</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>📬 <strong>Need help?</strong><br>
+Ask your questions at: <a href="https://github.com/AammarTufail/DSAAMP_2025/blob/main/03_docker_containers_mlops/docker_readme..md">github.com/aammartufail</a></p>
+<h2 id="docker-hub"><strong>Docker-Hub</strong></h2>
+<ul>
+<li><a href="https://hub.docker.com/">Docker Hub</a> is a cloud-based repository for Docker images.</li>
+<li>You can push your images to Docker Hub to share them with others or use them on different machines.</li>
+<li>To push your image to Docker Hub, you need to create an account and log in to Docker Hub from your terminal.</li>
+<li>You can then use the <code>docker push</code> command to upload your image.</li>
+</ul>
+<hr>
+<h2 id="-push-your-image-to-docker-hub">🚀 Push Your Image to Docker Hub</h2>
+<p>Let's push your image to the Docker Hub repository <code>maammartufail/test_app</code>.</p>
+<h3 id="1-log-in-to-docker-hub">1. Log in to Docker Hub</h3>
+<pre><code class="language-bash">docker login
+</code></pre>
+<blockquote>
+<p>Enter your Docker Hub username and password when prompted.</p>
+</blockquote>
+<h4 id="11-create-a-docker-hub-repository">1.1 Create a Docker Hub repository</h4>
+<ul>
+<li>Go to <a href="https://hub.docker.com/">Docker Hub</a>.</li>
+<li>Click on <strong>Create Repository</strong>.</li>
+<li>Enter the name of your repository (e.g., <code>test_app</code>).</li>
+<li>Choose <strong>Public</strong> or <strong>Private</strong>. I prefer <strong>Public</strong>.</li>
+<li>Click on <strong>Create</strong>.</li>
+</ul>
+<blockquote>
+<p>You can also create a repository from the command line using the Docker CLI.</p>
+</blockquote>
+<pre><code class="language-bash">docker create repository maammartufail/test_app
+</code></pre>
+<blockquote>
+<ul>
+<li>This command creates a new repository named <code>test_app</code> under your Docker Hub account <code>maammartufail</code>.</li>
+<li>You can also create a repository from the Docker Hub website.</li>
+</ul>
+</blockquote>
+<h3 id="2-tag-your-image">2. Tag Your Image</h3>
+<p>Tag your local image (<code>my-streamlit-app</code>) to match your Docker Hub repo:</p>
+<pre><code class="language-bash"><span class="hljs-comment"># Check your image ID</span>
+docker images
+<span class="hljs-comment"># Tag your image</span>
+docker tag my-streamlit-app maammartufail/test_app:latest
+</code></pre>
+<h3 id="3-push-the-image">3. Push the Image</h3>
+<pre><code class="language-bash">docker push maammartufail/test_app:latest
+</code></pre>
+<blockquote>
+<p>After the push completes, your image will be available at:<br>
+<a href="https://hub.docker.com/r/maammartufail/test_app">https://hub.docker.com/r/maammartufail/test_app</a></p>
+</blockquote>
+<hr>
+<p><strong>Tip:</strong><br>
+You can now pull and run this image from any machine with Docker installed:</p>
+<pre><code class="language-bash">docker pull maammartufail/test_app:latest
+docker run -p 8501:8501 maammartufail/test_app:latest
+</code></pre>
+<blockquote>
+<p>Run in background:</p>
+</blockquote>
+<pre><code class="language-bash"><span class="hljs-comment"># run in background even if you restart your computer</span>
+docker run --name MAtufail -d -p 8501:8501 maammartufail/test_app:latest
+<span class="hljs-comment"># check running containers</span>
+docker ps
+<span class="hljs-comment"># check logs</span>
+docker logs MAtufail
+<span class="hljs-comment"># stop the container</span>
+docker stop MAtufail
+<span class="hljs-comment"># remove the container</span>
+docker <span class="hljs-built_in">rm</span> MAtufail
+<span class="hljs-comment"># remove the image</span>
+docker rmi maammartufail/test_app:latest
+</code></pre>
+<h2 id="docker-cheatsheet">Docker Cheatsheet</h2>
+<p>Docker cheatsheet for common commands is available at:
+👉 <a href="https://docs.docker.com/get-started/docker_cheatsheet.pdf">Docker Cheatsheet</a></p>
+<blockquote>
+<ul>
+<li>This command downloads the image from Docker Hub and runs it locally.</li>
+<li>You can also use this image in cloud platforms like AWS, Azure, or Google Cloud.</li>
+<li>You can also use this image in CI/CD pipelines to automate your deployment process.</li>
+<li>You can also use this image in Kubernetes to deploy your app in a container orchestration platform.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="️-troubleshooting">🛠️ Troubleshooting</h2>
+<h3 id="common-issues">Common Issues</h3>
+<ul>
+<li><strong>Docker Daemon Not Running</strong>: Make sure Docker Desktop is running.</li>
+<li><strong>Permission Denied</strong>: Run Docker commands with <code>sudo</code> on Linux.</li>
+<li><strong>Image Not Found</strong>: Check the image name and tag.</li>
+<li><strong>Port Already in Use</strong>: Change the port mapping in the <code>docker run</code> command.</li>
+<li><strong>Container Not Starting</strong>: Check the logs with <code>docker logs &lt;container_id&gt;</code>.</li>
+<li><strong>Streamlit Not Found</strong>: Make sure you have <code>streamlit</code> in your <code>requirements.txt</code>.</li>
+<li><strong>Network Issues</strong>: Check your internet connection and firewall settings.</li>
+<li><strong>Dockerfile Errors</strong>: Check the syntax and paths in your Dockerfile.</li>
+<li><strong>Slow Build</strong>: Use <code>--no-cache</code> to speed up the build process.</li>
+<li><strong>Image Size</strong>: Use <code>docker system prune</code> to clean up unused images and containers.</li>
+<li><strong>Docker Desktop Issues</strong>: Restart Docker Desktop or your computer.</li>
+<li><strong>Docker Hub Issues</strong>: Check Docker Hub status page for outages.</li>
+</ul>
+<hr>
+
+            
+            
+        </body>
+        </html>
