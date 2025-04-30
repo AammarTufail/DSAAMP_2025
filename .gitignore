@@ -6,3 +6,13 @@
 *.DS_Store
 # ignore all ds_store files
 *.DS_Store
+
+__pycache__/
+*.pyc
+*/*.venv/
+*/.env
+
+*/*/.venv/
+*/*/.env
+
+

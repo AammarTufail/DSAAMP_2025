@@ -6,6 +6,15 @@ Environments are isolated spaces where you can install packages and dependencies
 - This is particularly useful when working on multiple projects that may require different versions of libraries or Python itself.
 - Environments help avoid version conflicts and ensure that each project has the exact dependencies it needs to run smoothly.
 
+---
+## Complete lecture on environments and package management
+
+<a href="https://youtu.be/OnCr8XmIiX0">
+  <img src="https://img.youtube.com/vi/OnCr8XmIiX0/0.jpg" alt="conda/pip/venv/mamba  environments | A complete Guide" width="500"/>
+</a>
+
+---
+
 ## Pros and Cons of Environments
 | Category              | Pros                                                                 | Cons                                                                                   |
 |-----------------------|----------------------------------------------------------------------|----------------------------------------------------------------------------------------|
