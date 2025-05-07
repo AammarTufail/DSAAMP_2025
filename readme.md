@@ -17,6 +17,8 @@ This mentorship program/course will continue for 4 months, covering the  advance
   - [1. Making a Portfolio:](#1-making-a-portfolio)
     - [1.1. Portfolio Making using mkdocs:](#11-portfolio-making-using-mkdocs)
   - [2. Environments for Data Science and AI](#2-environments-for-data-science-and-ai)
+  - [3. Docker and Docker Containers](#3-docker-and-docker-containers)
+  - [3.1. MLOps and DevOps](#31-mlops-and-devops)
 
 
 
@@ -77,6 +79,25 @@ Here is the complete guide to creating a portfolio using mkdocs-[Guide to make p
 
 Environments are isolated spaces where you can install packages and dependencies without affecting the global Python installation or other environments. Here you can see:
 >[A complet guide conda/miniconda/mamba/python environments](./02_environments/enviornments_in_python.md)
+
+## 3. Docker and Docker Containers
+
+You can use Docker to create isolated environments for your data science projects. Docker containers allow you to package your applications and their dependencies into a single unit, making it easy to share and deploy your work. Here is the complete guide to using Docker in Data Science and AI:
+>[A complete guide to Docker in Data Science and AI](./03_docker_containers_mlops/readme.md)
+
+- Here is the complete blog to look into it:
+>[A complete guide to Docker in Data Science and AI](https://codanics.com/docker-containers-for-data-science-and-ai-developers/)
+
+## 3.1. MLOps and DevOps
+- **MLOps**: MLOps (Machine Learning Operations) is a set of practices that combines machine learning, DevOps, and data engineering to automate the deployment, monitoring, and management of machine learning models in production. It aims to streamline the entire machine learning lifecycle, from development to deployment and maintenance.
+- **DevOps**: DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver high-quality software continuously. It emphasizes collaboration, automation, and monitoring throughout the software development process.
+
+- You can find the complete guide to MLOps and DevOps in Data Science and AI here:
+>[A complete guide to MLOps and DevOps in Data Science and AI](https://codanics.com/mlops-guide/)
+
+- Here is the importance of MLOps in Data Science and AI:
+> [Importance of MLOps](https://codanics.com/the-importance-of-mlops-for-data-science-students/)
+
 
 
 
