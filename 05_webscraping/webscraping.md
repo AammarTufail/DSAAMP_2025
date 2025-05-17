@@ -58,4 +58,21 @@ pipreqs <path_to_your_project>
 
 > This notebook will cover the web scraping with pandas library. Here is the link: 
 
-> [Web Scraping with Pandas](./01_pandas/01_pandas_webscraping.ipynb) 
+1. > [Web Scraping with Pandas](./01_pandas/01_pandas_webscraping.ipynb) 
+2. > [News Scraping from BBC](./02_news_scraping/01_bbc.ipynb)
+3. > [News Scraping from CNN](./02_news_scraping/02_cnn.ipynb)
+4. > [Data Scraping using API from workbank](./03_APIs/01_wbdata.ipynb)
+5. > [Data Scraping using API from faostats](./03_APIs/02_faostat.ipynb)
+6. > [Data Scraping using API from eurostat](./03_APIs/03_eurostat.ipynb)
+7. > [Data Scraping using API from yfinance](./03_APIs/04_yfinance.ipynb)
+8. > [Web scrapper for Amazon](./04_amazon_scraper/README.md)
+9. > [Web scrapper for google news](./05_google_news_scraper/README.md)
+10. > [Web scrapper for Google playstore scrapper](./06_google_play_scraper/README.md)
+
+
+# Disclaimer
+> This project is for educational purposes only. The author is not responsible for any misuse of the code or any legal issues that may arise from using it. Always check the website's terms of service before scraping data and ensure that you are not violating any laws or regulations. Use this code at your own risk.
+> The author is not responsible for any legal issues that may arise from using this code. Always check the website's terms of service before scraping data and ensure that you are not violating any laws or regulations. Use this code at your own risk.
+
+
+---
