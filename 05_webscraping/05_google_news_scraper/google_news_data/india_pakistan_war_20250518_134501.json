@@ -1,0 +1,632 @@
+[
+  {
+    "scraped_at": "2025-05-18T13:44:59.792667",
+    "publisher": "Line of Control: How India and Pakistan share one of the world's most dangerous borders",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:44:59.793633",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.794634",
+    "publisher": "Another Clash Over Kashmir Is Coming",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:44:59.795561",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://foreignpolicy.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.795561",
+    "publisher": "A Timeline of Tensions Between India and Pakistan Over Kashmir",
+    "published_time": "8 days ago",
+    "published_datetime": "2025-05-10T13:44:59.796649",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.797631",
+    "publisher": "Kashmir: Why India and Pakistan fight over it",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.797631",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.798530",
+    "publisher": "Pakistan and India are blaming each other as their Kashmir conflict spirals. Here’s what we know",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.799535",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cnn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.799535",
+    "publisher": "India-Pakistan conflict: How real is the risk of nuclear war?",
+    "published_time": "4 days ago",
+    "published_datetime": "2025-05-14T13:44:59.800430",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.801631",
+    "publisher": "India-Pakistan tensions: A brief history of conflict",
+    "published_time": "9 days ago",
+    "published_datetime": "2025-05-09T13:44:59.801631",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.802627",
+    "publisher": "India vs. Pakistan Is Also U.S. vs. China When It Comes to Arms Sales",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.803522",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.803522",
+    "publisher": "What We Know About How the 4-Day India-Pakistan Clashes Unfolded",
+    "published_time": "6 days ago",
+    "published_datetime": "2025-05-12T13:44:59.804658",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.804658",
+    "publisher": "Have India and Pakistan started a drone war?",
+    "published_time": "10 days ago",
+    "published_datetime": "2025-05-08T13:44:59.805619",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.805619",
+    "publisher": "President Trump says the US helped broker ceasefire between India and Pakistan",
+    "published_time": "8 days ago",
+    "published_datetime": "2025-05-10T13:44:59.806670",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.npr.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.806670",
+    "publisher": "Tensions remain high in India and Pakistan after apparent breaches to ceasefire",
+    "published_time": "8 days ago",
+    "published_datetime": "2025-05-10T13:44:59.807615",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.pbs.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.807615",
+    "publisher": "Ambassador lays out what India needs from Pakistan and the U.S.",
+    "published_time": "9 days ago",
+    "published_datetime": "2025-05-09T13:44:59.808483",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.npr.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.808483",
+    "publisher": "How the Indian Media Amplified Falsehoods in the Drumbeat of War",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.810445",
+    "publisher": "\"India Has Launched Missiles\": Pak PM Shehbaz Sharif Recounts 2:30 AM Asim Munir Call",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.811426",
+    "publisher": "Chinese weapons gave Pakistan a new edge against India",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:44:59.812656",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.economist.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.812656",
+    "publisher": "Lies, now open sourced: India-Pakistan conflict puts spotlight on open-source intelligence and credibility",
+    "published_time": "17 hours ago",
+    "published_datetime": "2025-05-17T20:44:59.813621",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.813621",
+    "publisher": "For the Rulers of India and Pakistan, War Fever Is a Boon",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:44:59.814632",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://jacobin.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.815647",
+    "publisher": "Kashmir: Four days that took India and Pakistan to the brink",
+    "published_time": "11 hours ago",
+    "published_datetime": "2025-05-18T02:44:59.815647",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.816627",
+    "publisher": "Why There’s No Battlefield Solution to India’s Perpetual Pakistan Problem",
+    "published_time": "6 hours ago",
+    "published_datetime": "2025-05-18T07:44:59.817632",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.817632",
+    "publisher": "India–Pakistan drone and missile conflict: differing and disputed narratives",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:44:59.818632",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.iiss.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.819514",
+    "publisher": "Waronomics: India-Pak wars won’t stop at LoC, they’ll hit the economy hard, from trade to balance sheets",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:44:59.819514",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.820424",
+    "publisher": "May 7, 2025 India launches attacks on Pakistan after Kashmir massacre",
+    "published_time": "10 days ago",
+    "published_datetime": "2025-05-08T13:44:59.821484",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://edition.cnn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.821484",
+    "publisher": "India and Pakistan agree ceasefire: What does it mean?",
+    "published_time": "8 days ago",
+    "published_datetime": "2025-05-10T13:44:59.822667",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.822667",
+    "publisher": "Vance says US won’t intervene in India-Pakistan conflict: ‘None of our business’",
+    "published_time": "9 days ago",
+    "published_datetime": "2025-05-09T13:44:59.823604",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.823604",
+    "publisher": "India-Pakistan War: Chinese Weapons Get Combat Test",
+    "published_time": "8 days ago",
+    "published_datetime": "2025-05-10T13:44:59.824642",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.newsweek.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.824642",
+    "publisher": "India and Pakistan: A Timeline of Tensions Over Kashmir",
+    "published_time": "10 days ago",
+    "published_datetime": "2025-05-08T13:44:59.825633",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://time.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.826631",
+    "publisher": "The latest developments in the India-Pakistan conflict",
+    "published_time": "10 days ago",
+    "published_datetime": "2025-05-08T13:44:59.826631",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.827635",
+    "publisher": "Why are India and Pakistan on the brink of war and how dangerous is the situation? An expert explains",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.827635",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://theconversation.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.828631",
+    "publisher": "What’s Behind the Enduring India-Pakistan Conflict?",
+    "published_time": "6 days ago",
+    "published_datetime": "2025-05-12T13:44:59.828631",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.bloomberg.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.829631",
+    "publisher": "India preps for possible retaliation after hitting Pakistan with missile strike as Kashmir tension soars",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.830425",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cbsnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.830425",
+    "publisher": "U.S. Intelligence on South Asian Conflict Scenarios",
+    "published_time": "Apr 22",
+    "published_datetime": "Apr 22",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://nsarchive.gwu.edu&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.831426",
+    "publisher": "Not taking India-Pakistan escalation seriously a 'huge risk,' warns conflict expert",
+    "published_time": "10 days ago",
+    "published_datetime": "2025-05-08T13:44:59.832430",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.npr.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.832430",
+    "publisher": "The rising tension between India and Pakistan, briefly explained",
+    "published_time": "17 days ago",
+    "published_datetime": "2025-05-01T13:44:59.833424",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.vox.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.833424",
+    "publisher": "India fired missiles into Pakistan, which has vowed to strike back. A look at the nuclear rivals",
+    "published_time": "12 days ago",
+    "published_datetime": "2025-05-06T13:44:59.834424",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://apnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.835613",
+    "publisher": "India strikes Pakistan after Kashmir attack, raising fears of war",
+    "published_time": "12 days ago",
+    "published_datetime": "2025-05-06T13:44:59.835613",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.washingtonpost.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.836630",
+    "publisher": "What to know about the India-Pakistan conflict: India strikes and Kashmir attack follow long history of tension and war",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.836630",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.nbcnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.837631",
+    "publisher": "India-Pakistan tensions: US, China urge de-escalation",
+    "published_time": "Apr 28",
+    "published_datetime": "Apr 28",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.dw.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.838632",
+    "publisher": "India And Pakistan Are On The Brink Of Conflict. Here's Why.",
+    "published_time": "Apr 27",
+    "published_datetime": "Apr 27",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.rferl.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.839490",
+    "publisher": "India and Pakistan accuse each other of ‘violations’ after ceasefire deal",
+    "published_time": "10 days ago",
+    "published_datetime": "2025-05-08T13:44:59.839490",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.840459",
+    "publisher": "The Danger for India and Pakistan Has Not Gone Away",
+    "published_time": "7 days ago",
+    "published_datetime": "2025-05-11T13:44:59.840459",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.841680",
+    "publisher": "India Pakistan News Live Updates: Trump reiterates his claim of brokering talks between India, Pakistan t...",
+    "published_time": "5 days ago",
+    "published_datetime": "2025-05-13T13:44:59.841680",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.842619",
+    "publisher": "India-Pakistan conflict: Why Delhi could not stop IMF bailout to Islamabad",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:44:59.842619",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.843631",
+    "publisher": "India and Pakistan both claim victory. But this latest conflict has no winners",
+    "published_time": "6 days ago",
+    "published_datetime": "2025-05-12T13:44:59.843631",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cnn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.844629",
+    "publisher": "India and Pakistan blame each other for escalating military tensions",
+    "published_time": "12 days ago",
+    "published_datetime": "2025-05-06T13:44:59.844629",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.845633",
+    "publisher": "India Strikes Pakistan but Is Said to Have Lost Aircraft",
+    "published_time": "12 days ago",
+    "published_datetime": "2025-05-06T13:44:59.845633",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.846631",
+    "publisher": "India expels Pakistan diplomat as war of words simmers in place of fighting",
+    "published_time": "5 days ago",
+    "published_datetime": "2025-05-13T13:44:59.846631",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.847673",
+    "publisher": "India and Pakistan are both claiming victory after this week’s clashes. Will cooler heads prevail?",
+    "published_time": "9 days ago",
+    "published_datetime": "2025-05-09T13:44:59.847673",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cnn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.848615",
+    "publisher": "India and Pakistan Escalate Attacks to Military Bases",
+    "published_time": "9 days ago",
+    "published_datetime": "2025-05-09T13:44:59.848615",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.850425",
+    "publisher": "India strikes - how will Pakistan respond? Four key questions",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.851461",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.851461",
+    "publisher": "Updates: India and Pakistan accuse each other of waves of drone attacks",
+    "published_time": "10 days ago",
+    "published_datetime": "2025-05-08T13:44:59.852426",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.852426",
+    "publisher": "India and Pakistan Agree to a Cease-Fire After Kashmir Attack: What to Know",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:44:59.853426",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.853426",
+    "publisher": "India and Pakistan: The first drone war between nuclear-armed neighbours",
+    "published_time": "9 days ago",
+    "published_datetime": "2025-05-09T13:44:59.854426",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.855426",
+    "publisher": "What can be learned from the latest conflict between India and Pakistan?",
+    "published_time": "7 days ago",
+    "published_datetime": "2025-05-11T13:44:59.855426",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.856425",
+    "publisher": "India-Pakistan Updates: India hits Pakistan, Pakistan-administered Kashmir",
+    "published_time": "12 days ago",
+    "published_datetime": "2025-05-06T13:44:59.856425",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.857424",
+    "publisher": "Pakistan claims it has ‘credible intelligence’ India will strike within 36 hours",
+    "published_time": "17 days ago",
+    "published_datetime": "2025-05-01T13:44:59.857424",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://edition.cnn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.858425",
+    "publisher": "India’s ‘new normal’ of perpetual war will damage its democracy",
+    "published_time": "5 days ago",
+    "published_datetime": "2025-05-13T13:44:59.858425",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.859424",
+    "publisher": "India and Pakistan face conflict again - how did they de-escalate in the past?",
+    "published_time": "16 days ago",
+    "published_datetime": "2025-05-02T13:44:59.860520",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.860520",
+    "publisher": "India-Pakistan Conflict Escalates: Latest Updates",
+    "published_time": "10 days ago",
+    "published_datetime": "2025-05-08T13:44:59.861587",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://time.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.861587",
+    "publisher": "India strikes deep inside Pakistan, Pakistan claims 5 Indian jets shot down, in major escalation",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.862638",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cnn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.863625",
+    "publisher": "Information war: Are India and Pakistan telling the truth about attacks?",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.863625",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.864634",
+    "publisher": "India fires missiles on Pakistan. Islamabad calls it an ‘act of war’",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.864634",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://apnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.865630",
+    "publisher": "What We Know About the Terrorist Groups India Said It Targeted",
+    "published_time": "9 days ago",
+    "published_datetime": "2025-05-09T13:44:59.866497",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.866497",
+    "publisher": "How India Is Threatening to Weaponize Water in Its Conflict With Pakistan",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.866497",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://time.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.867666",
+    "publisher": "India-Pakistan war: A chilling 2019 study had predicted a nuclear war in 2025 and what could happen",
+    "published_time": "12 days ago",
+    "published_datetime": "2025-05-06T13:44:59.867666",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.868617",
+    "publisher": "With militaries upgraded, risks multiply in any potential India-Pakistan conflict",
+    "published_time": "13 days ago",
+    "published_datetime": "2025-05-05T13:44:59.868617",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.869631",
+    "publisher": "‘Don’t want war’: Kashmiri towns caught in deadly India-Pakistan crossfire",
+    "published_time": "10 days ago",
+    "published_datetime": "2025-05-08T13:44:59.870425",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.870425",
+    "publisher": "A massacre has reignited the forever war between India and Pakistan – once more, Kashmiri voices are missing",
+    "published_time": "Apr 29",
+    "published_datetime": "Apr 29",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.871634",
+    "publisher": "India Pakistan Conflict Highlights: India slams Pakistan for violating understanding on stopping military...",
+    "published_time": "7 days ago",
+    "published_datetime": "2025-05-11T13:44:59.872626",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.872626",
+    "publisher": "Pakistan launches Operation Bunyan Marsoos: What we know so far",
+    "published_time": "8 days ago",
+    "published_datetime": "2025-05-10T13:44:59.873636",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.873636",
+    "publisher": "India-Pakistan live: India says it ‘repulsed’ multiple drone attacks near border",
+    "published_time": "9 days ago",
+    "published_datetime": "2025-05-09T13:44:59.874624",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.the-independent.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.874624",
+    "publisher": "India-Pakistan drone war heats up",
+    "published_time": "10 days ago",
+    "published_datetime": "2025-05-08T13:44:59.875631",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.875631",
+    "publisher": "India and Pakistan trade attacks amid risk of war between nuclear states",
+    "published_time": "10 days ago",
+    "published_datetime": "2025-05-08T13:44:59.876628",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.npr.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.876628",
+    "publisher": "Tensions escalate as Pakistan calls India's operation 'an act of war'",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.877626",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.npr.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.877626",
+    "publisher": "How an India-Pakistan War Could Derail Central Asia's Future",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.878631",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://oilprice.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.878631",
+    "publisher": "India-Pakistan Conflict Escalates: Latest Updates",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.879537",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://time.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.879537",
+    "publisher": "India-Pakistan: Can other countries pull them from the brink of conflict?",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.880511",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.880511",
+    "publisher": "‘Act of war’: Pakistan pledges retaliation to Indian deadly attacks",
+    "published_time": "11 days ago",
+    "published_datetime": "2025-05-07T13:44:59.881570",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.881570",
+    "publisher": "Pakistan decries ‘act of war’ as it retaliates against India missile attack",
+    "published_time": "12 days ago",
+    "published_datetime": "2025-05-06T13:44:59.882559",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.882559",
+    "publisher": "Pakistan test-fires ballistic missile as tensions with India rise",
+    "published_time": "15 days ago",
+    "published_datetime": "2025-05-03T13:44:59.883651",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.883651",
+    "publisher": "‘Don’t see a major war with India, but have to be ready’: Pakistan ex-NSA",
+    "published_time": "15 days ago",
+    "published_datetime": "2025-05-03T13:44:59.884623",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.884623",
+    "publisher": "Pakistan’s Leaders May Talk Tough, but War With India Is the Last Thing Pakistanis Want",
+    "published_time": "16 days ago",
+    "published_datetime": "2025-05-02T13:44:59.885632",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.885632",
+    "publisher": "US urges restraint as Kashmir massacre tensions put India and Pakistan on edge",
+    "published_time": "17 days ago",
+    "published_datetime": "2025-05-01T13:44:59.886634",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cnn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.886634",
+    "publisher": "Vance says US hopes Pakistan cooperates with India against Pakistan-based militants",
+    "published_time": "17 days ago",
+    "published_datetime": "2025-05-01T13:44:59.887630",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.887630",
+    "publisher": "U.S. and U.N. Urge De-escalation Between India and Pakistan",
+    "published_time": "17 days ago",
+    "published_datetime": "2025-05-01T13:44:59.888634",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.888634",
+    "publisher": "The $10bn India-Pakistan trade secret hidden by official data",
+    "published_time": "17 days ago",
+    "published_datetime": "2025-05-01T13:44:59.889624",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aljazeera.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.890424",
+    "publisher": "How a Pakistan-India war could spiral into nuclear Armageddon leaving 125 MILLION dead in a week - as tensions",
+    "published_time": "17 days ago",
+    "published_datetime": "2025-05-01T13:44:59.891439",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.dailymail.co.uk&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.891439",
+    "publisher": "India and Pakistan are bracing for a military clash",
+    "published_time": "17 days ago",
+    "published_datetime": "2025-05-01T13:44:59.892675",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.economist.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.892675",
+    "publisher": "Pakistan warns of an Indian attack, while quietly urging de-escalation",
+    "published_time": "17 days ago",
+    "published_datetime": "2025-05-01T13:44:59.893620",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.washingtonpost.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:44:59.893620",
+    "publisher": "Asim Munir: Pakistan army chief’s Kashmir remarks cause anger in India",
+    "published_time": "Apr 30",
+    "published_datetime": "Apr 30",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  }
+]

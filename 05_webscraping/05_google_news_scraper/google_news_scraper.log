@@ -1,0 +1,76 @@
+2025-05-18 13:31:16,154 - INFO - Starting Google News scraper for AI news
+2025-05-18 13:31:16,639 - INFO - Successfully parsed robots.txt
+2025-05-18 13:31:29,659 - INFO - Searching for: AI news
+2025-05-18 13:31:29,667 - WARNING - robots.txt disallows: https://news.google.com/search?q=AI+news&hl=en-US&gl=US&ceid=US:en
+2025-05-18 13:31:29,669 - ERROR - Failed to retrieve search page: Blocked by robots.txt
+2025-05-18 13:31:44,469 - INFO - Starting Google News scraper for AI news
+2025-05-18 13:31:44,902 - INFO - Successfully parsed robots.txt
+2025-05-18 13:31:47,300 - INFO - Searching for: artificial intelligence news
+2025-05-18 13:31:47,308 - WARNING - robots.txt disallows: https://news.google.com/search?q=artificial+intelligence+news&hl=en-US&gl=US&ceid=US:en
+2025-05-18 13:31:47,309 - ERROR - Failed to retrieve search page: Blocked by robots.txt
+2025-05-18 13:33:25,891 - INFO - Starting Google News scraper for AI news
+2025-05-18 13:33:27,119 - INFO - Searching for: artificial intelligence news
+2025-05-18 13:33:29,030 - INFO - Request to https://news.google.com/search?q=artificial+intelligence+news&hl=en-US&gl=US&ceid=US:en (Attempt 1/3)
+2025-05-18 13:33:29,339 - INFO - Found 0 articles on search page
+2025-05-18 13:34:52,783 - INFO - Starting Google News scraper for AI news
+2025-05-18 13:34:53,949 - INFO - Searching for: artificial intelligence news
+2025-05-18 13:34:56,783 - INFO - Request to https://news.google.com/search?q=artificial+intelligence+news&hl=en-US&gl=US&ceid=US:en (Attempt 1/3)
+2025-05-18 13:34:57,133 - INFO - Found 0 articles on search page
+2025-05-18 13:35:08,969 - INFO - Starting Google News scraper for AI news
+2025-05-18 13:35:18,760 - INFO - Searching for: AI News
+2025-05-18 13:35:21,008 - INFO - Request to https://news.google.com/search?q=AI+News&hl=en-US&gl=US&ceid=US:en (Attempt 1/3)
+2025-05-18 13:35:21,365 - INFO - Found 0 articles on search page
+2025-05-18 13:37:06,296 - INFO - Starting Google News scraper for AI news
+2025-05-18 13:37:11,739 - INFO - Searching for: AI News
+2025-05-18 13:37:14,455 - INFO - Request to https://news.google.com/search?q=AI+News&hl=en-US&gl=US&ceid=US:en (Attempt 1/3)
+2025-05-18 13:37:14,800 - INFO - Found 0 articles on search page
+2025-05-18 13:38:59,496 - INFO - Starting Google News scraper for AI news
+2025-05-18 13:39:05,539 - INFO - Searching for: AI News
+2025-05-18 13:40:44,589 - INFO - Starting Google News scraper for AI news
+2025-05-18 13:40:49,499 - INFO - Searching for: AI News
+2025-05-18 13:40:55,473 - INFO - Selenium: Found 106 articles on search page
+2025-05-18 13:40:55,479 - INFO - Saved data to google_news_data\ai_news_20250518_134055.json
+2025-05-18 13:40:55,482 - INFO - Saved 106 articles to google_news_data\ai_news_20250518_134055.csv
+2025-05-18 13:43:01,465 - INFO - Starting Google News scraper for AI news
+2025-05-18 13:43:10,681 - INFO - Searching for: AI News
+2025-05-18 13:43:16,457 - INFO - Selenium: Found 107 articles on search page
+2025-05-18 13:43:16,461 - INFO - Saved data to google_news_data\ai_news_20250518_134316.json
+2025-05-18 13:43:16,464 - INFO - Saved 107 articles to google_news_data\ai_news_20250518_134316.csv
+2025-05-18 13:44:46,881 - INFO - Starting Google News scraper for AI news
+2025-05-18 13:44:55,624 - INFO - Searching for: India Pakistan War
+2025-05-18 13:45:01,985 - INFO - Selenium: Found 90 articles on search page
+2025-05-18 13:45:01,989 - INFO - Saved data to google_news_data\india_pakistan_war_20250518_134501.json
+2025-05-18 13:45:01,993 - INFO - Saved 90 articles to google_news_data\india_pakistan_war_20250518_134501.csv
+2025-05-18 13:49:41,899 - INFO - Starting Google News scraper for AI news
+2025-05-18 13:49:47,781 - INFO - Searching for: AI
+2025-05-18 13:49:53,824 - INFO - Selenium: Found 90 articles on search page
+2025-05-18 13:49:53,830 - INFO - Saved data to google_news_data\ai_20250518_134953.json
+2025-05-18 13:49:53,838 - INFO - Saved 90 articles to google_news_data\ai_20250518_134953.csv
+2025-05-18 13:49:55,590 - ERROR - Error in keyword analysis: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\aammar/nltk_data'
+    - 'C:\\Users\\aammar\\miniconda3\\envs\\webscraping\\nltk_data'
+    - 'C:\\Users\\aammar\\miniconda3\\envs\\webscraping\\share\\nltk_data'
+    - 'C:\\Users\\aammar\\miniconda3\\envs\\webscraping\\lib\\nltk_data'
+    - 'C:\\Users\\aammar\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-05-18 13:49:55,593 - INFO - Saved data to google_news_data\ai_analysis_20250518_134953.json
+2025-05-18 13:49:57,474 - INFO - Generated word cloud: ai_wordcloud_20250518_134953.png
+2025-05-18 13:49:57,602 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-18 13:49:57,604 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-18 13:49:58,076 - INFO - Generated timeline chart: ai_timeline_20250518_134953.png

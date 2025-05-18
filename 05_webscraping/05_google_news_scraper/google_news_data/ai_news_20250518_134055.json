@@ -1,0 +1,744 @@
+[
+  {
+    "scraped_at": "2025-05-18T13:40:53.230604",
+    "publisher": "Elton John brands government 'absolute losers' over AI copyright plans",
+    "published_time": "5 hours ago",
+    "published_datetime": "2025-05-18T08:40:53.231538",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.232667",
+    "publisher": "Apple’s Alibaba A.I. Deal Provokes Washington’s Resistance",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.234438",
+    "publisher": "Trump administration is concerned by deal to put Alibaba's AI on iPhones: Report",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.236388",
+    "publisher": "Big Chinese companies like Alibaba show that AI-powered ads are giving shopping a boost",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.237389",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.238388",
+    "publisher": "AI study finds 'no significant impact on earnings or recorded hours'",
+    "published_time": "37 minutes ago",
+    "published_datetime": "2025-05-18T13:03:53.239387",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://fortune.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.239387",
+    "publisher": "MIT Says It No Longer Stands Behind Student’s AI Research Paper",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.240387",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.wsj.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.240387",
+    "publisher": "AI breakthrough allows doctors to 'see' dangerous blood clots forming",
+    "published_time": "2 hours ago",
+    "published_datetime": "2025-05-18T11:40:53.241387",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.foxnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.241387",
+    "publisher": "House Republicans include a 10-year ban on US states regulating AI in ‘big, beautiful’ bill",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.242387",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://apnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.242387",
+    "publisher": "China’s next-gen surveillance tools get AI boost to target Telegram or VPN users",
+    "published_time": "22 hours ago",
+    "published_datetime": "2025-05-17T15:40:53.243386",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.scmp.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.244386",
+    "publisher": "Microsoft's fired AI director to 6,000 laid off employees along with her: 'These are people who…'",
+    "published_time": "6 hours ago",
+    "published_datetime": "2025-05-18T07:40:53.245387",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.246389",
+    "publisher": "Nvidia CEO: If I were a student today, here's how I'd use AI to do my job better—it ‘doesn’t matter’ the profession",
+    "published_time": "22 hours ago",
+    "published_datetime": "2025-05-17T15:40:53.246389",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.247579",
+    "publisher": "Nvidia CEO Sees No Evidence of AI Chip Diversion Into China",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.bloomberg.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.248612",
+    "publisher": "Former Google CEO Eric Schmidt may have just agreed with ‘AI warning’ of Nvidia’s Jensen Huang",
+    "published_time": "8 hours ago",
+    "published_datetime": "2025-05-18T05:40:53.249584",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.250541",
+    "publisher": "Exclusive | Meta Is Delaying the Rollout of Its Flagship AI Model",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.250541",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.wsj.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.251527",
+    "publisher": "Nvidia gets an AI boost, Meta hits a AI roadblock, and Apple's brutal year: Tech news roundup",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://qz.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.252614",
+    "publisher": "Meta Shares Slip on Report That It’s Delaying Flagship AI Model",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.253591",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.bloomberg.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.253591",
+    "publisher": "Californians would lose AI protections under bill advancing in Congress",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.255387",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://calmatters.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.256387",
+    "publisher": "MIT disavows doctoral student paper on AI’s productivity benefits",
+    "published_time": "16 hours ago",
+    "published_datetime": "2025-05-17T21:40:53.256387",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://techcrunch.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.257387",
+    "publisher": "Meta to Train AI on E.U. User Data From May 27 Without Consent; Noyb Threatens Lawsuit",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.257387",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://thehackernews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.258387",
+    "publisher": "Stony Brook Medicine Pioneers Use of AI Technology for Heart Disease Diagnosis on Long Island",
+    "published_time": "4 days ago",
+    "published_datetime": "2025-05-14T13:40:53.259389",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://news.stonybrook.edu&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.259389",
+    "publisher": "AI Daily: Nvidia says not sending GPU designs to China",
+    "published_time": "18 hours ago",
+    "published_datetime": "2025-05-17T19:40:53.260388",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://finance.yahoo.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.260388",
+    "publisher": "Elton John says UK government being ‘absolute losers’ over AI copyright plans",
+    "published_time": "1 hour ago",
+    "published_datetime": "2025-05-18T12:40:53.261386",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.261386",
+    "publisher": "What Is Lost with the Rise of AI",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://evolutionnews.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.262387",
+    "publisher": "US slams brakes on AI Diffusion Rule, hardens chip export curbs",
+    "published_time": "18 hours ago",
+    "published_datetime": "2025-05-17T19:40:53.263386",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.artificialintelligence-news.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.264386",
+    "publisher": "Google hits 150 million users for subscription service with help of AI",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.266396",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.267388",
+    "publisher": "Trump's AI deals in Gulf stir China fears back home",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.267388",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.axios.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.268388",
+    "publisher": "China launches first of 2,800 satellites for AI space computing constellation",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.269387",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://spacenews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.269387",
+    "publisher": "Sir Elton John 'very angry' over AI plans",
+    "published_time": "1 hour ago",
+    "published_datetime": "2025-05-18T12:40:53.270394",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.270394",
+    "publisher": "Weeks after Amazon's Alexa+ AI launch, a mystery: where are the users?",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.271388",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.272390",
+    "publisher": "Elon Musk's AI company says Grok chatbot focus on South Africa's racial politics was 'unauthorized'",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://apnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.273389",
+    "publisher": "Oracle (ORCL) Launches New AI Health Agent in Canada",
+    "published_time": "36 minutes ago",
+    "published_datetime": "2025-05-18T13:04:53.274387",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://finance.yahoo.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.275387",
+    "publisher": "Elon Musk’s chatbot just showed why AI regulation is an urgent necessity",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.276416",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.msnbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.276416",
+    "publisher": "Bill Gates names three well-paying jobs that are safe from AI",
+    "published_time": "50 minutes ago",
+    "published_datetime": "2025-05-18T12:50:53.277623",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.irishstar.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.278582",
+    "publisher": "Republicans propose prohibiting US states from regulating AI for 10 years",
+    "published_time": "4 days ago",
+    "published_datetime": "2025-05-14T13:40:53.278582",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.279603",
+    "publisher": "Oracle, Cleveland Clinic, and G42 Announce Strategic Partnership to Launch AI-Based Global Healthcare Delivery Platform",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.279603",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.oracle.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.280599",
+    "publisher": "Microsoft says it provided AI to Israeli military for war but denies use to harm people in Gaza",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://apnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.281509",
+    "publisher": "New AI and accessibility updates across Android, Chrome and more",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.282612",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://blog.google&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.282612",
+    "publisher": "US and UAE plan to build 5GW AI data center campus, run by G42 and American hyperscalers",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.283529",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.datacenterdynamics.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.283529",
+    "publisher": "Trump agrees deal for UAE to build largest AI campus outside US",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.285388",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.286387",
+    "publisher": "'Criminal': Elton John condemns UK's AI copyright plans",
+    "published_time": "30 minutes ago",
+    "published_datetime": "2025-05-18T13:10:53.287388",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.tradingview.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.287388",
+    "publisher": "UAE to build biggest AI campus outside US in Trump deal, bypassing past China worries",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.288387",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.289388",
+    "publisher": "Trump wraps up Gulf tour with AI and energy deals in UAE",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.289388",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.290387",
+    "publisher": "It pays to use AI on the sly at work",
+    "published_time": "7 hours ago",
+    "published_datetime": "2025-05-18T06:40:53.291387",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ft.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.291387",
+    "publisher": "Watch: World leaders laugh at AI-generated video of themselves as babies",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.292391",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://edition.cnn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.292391",
+    "publisher": "Inside the first U.S. medical school to fully incorporate AI into its doctor training program",
+    "published_time": "5 days ago",
+    "published_datetime": "2025-05-13T13:40:53.293386",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cbsnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.293386",
+    "publisher": "AI models can't tell time or read a calendar, study reveals",
+    "published_time": "22 hours ago",
+    "published_datetime": "2025-05-17T15:40:53.294387",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.livescience.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.295388",
+    "publisher": "With AI, researchers predict the location of virtually any protein within a human cell",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.296410",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://news.mit.edu&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.297537",
+    "publisher": "Nvidia-backed CoreWeave soars 100% since IPO as investors see AI demand outweighing 'risky' business model",
+    "published_time": "22 hours ago",
+    "published_datetime": "2025-05-17T15:40:53.297537",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://finance.yahoo.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.298606",
+    "publisher": "What do AI chatbots say about their own bosses — and their rivals?",
+    "published_time": "7 hours ago",
+    "published_datetime": "2025-05-18T06:40:53.298606",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ft.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.299587",
+    "publisher": "Your A.I. Radiologist Will Not Be With You Soon",
+    "published_time": "4 days ago",
+    "published_datetime": "2025-05-14T13:40:53.300590",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.300590",
+    "publisher": "Become a certified Generative AI Leader with a first-of-its-kind credential from Google Cloud.",
+    "published_time": "4 days ago",
+    "published_datetime": "2025-05-14T13:40:53.301593",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://blog.google&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.301593",
+    "publisher": "AI Chatbots Mirror a Human Brain Disorder",
+    "published_time": "20 hours ago",
+    "published_datetime": "2025-05-17T17:40:53.302595",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://neurosciencenews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.303596",
+    "publisher": "Microsoft’s CEO on How AI Will Remake Every Company, Including His",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.304592",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.bloomberg.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.304592",
+    "publisher": "2 Artificial Intelligence (AI) Stocks I'm Buying If the Market Crashes",
+    "published_time": "18 hours ago",
+    "published_datetime": "2025-05-17T19:40:53.306389",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.fool.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.306389",
+    "publisher": "AI Discovers Suspected Trigger of Alzheimer's, And Maybe a Treatment",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.307632",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.sciencealert.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.307632",
+    "publisher": "Gemini AI Will Soon Power In-Car Android Auto",
+    "published_time": "17 hours ago",
+    "published_datetime": "2025-05-17T20:40:53.308582",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.autoblog.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.309522",
+    "publisher": "Why was Elon Musk’s AI chatbot Grok preoccupied with South Africa’s racial politics?",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.309522",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://apnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.310558",
+    "publisher": "America’s AI future hinges on nuclear energy",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.311570",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.utilitydive.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.311570",
+    "publisher": "MIT Backs Away From Paper Claiming Scientists Make More Discoveries with AI",
+    "published_time": "16 hours ago",
+    "published_datetime": "2025-05-17T21:40:53.312449",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://gizmodo.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.313478",
+    "publisher": "UAE partners with Italian startup for AI supercomputer",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.313478",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.314622",
+    "publisher": "US tech firms Nvidia, AMD secure AI deals as Trump tours Gulf states",
+    "published_time": "4 days ago",
+    "published_datetime": "2025-05-14T13:40:53.316387",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.316387",
+    "publisher": "Trump announces $200 billion in deals during UAE visit, AI agreement signed",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.317387",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.317387",
+    "publisher": "Republicans seek new oversight of online speech while boosting AI",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.nbcnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.318575",
+    "publisher": "Nvidia to send 18,000 AI chips to Saudi Arabia",
+    "published_time": "4 days ago",
+    "published_datetime": "2025-05-14T13:40:53.319595",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://apnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.319595",
+    "publisher": "Elon Musk’s AI firm blames unauthorised change for chatbot’s rant about ‘white genocide’ | Artificial intelligence (AI)",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.320589",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.321618",
+    "publisher": "Fox News AI Newsletter: Teacher's tech tell-all goes viral",
+    "published_time": "23 hours ago",
+    "published_datetime": "2025-05-17T14:40:53.322596",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.foxnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.322596",
+    "publisher": "Brad Carson reflects on legacy at TU and looks ahead to AI leadership role in Washington",
+    "published_time": "18 hours ago",
+    "published_datetime": "2025-05-17T19:40:53.323603",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.newson6.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.323603",
+    "publisher": "Amazon and Nvidia are going all in on healthcare AI. Here's why.",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.324597",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.businessinsider.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.326388",
+    "publisher": "Anthropic Snags $2.5 Billion Credit Line as AI Demand Rises",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.pymnts.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.327388",
+    "publisher": "Google is readying its AI Mode search tool for primetime, whether you like it or not",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://mashable.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.329563",
+    "publisher": "The Oregonian Is Using AI to Draft Stories",
+    "published_time": "23 hours ago",
+    "published_datetime": "2025-05-17T14:40:53.330552",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.wweek.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.330552",
+    "publisher": "OpenAI launches Codex, an AI coding agent, in ChatGPT",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.331611",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://techcrunch.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.331611",
+    "publisher": "A100x Launches $50 Million Fund for AI and Blockchain Startups",
+    "published_time": "4 hours ago",
+    "published_datetime": "2025-05-18T09:40:53.332585",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.binance.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.332585",
+    "publisher": "AI’s Spontaneously Develop Social Norms Like Humans",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.333598",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://neurosciencenews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.333598",
+    "publisher": "Noncoders are using AI to prompt their ideas into reality. They call it 'vibe coding.'",
+    "published_time": "5 days ago",
+    "published_datetime": "2025-05-13T13:40:53.335388",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.nbcnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.336432",
+    "publisher": "Trump administration's next wave of China AI chip export rules are yet another obstacle for Nvidia",
+    "published_time": "4 days ago",
+    "published_datetime": "2025-05-14T13:40:53.336432",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.337414",
+    "publisher": "CoreWeave pops almost 60% this week on AI growth momentum, big Nvidia stake",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.337414",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.338632",
+    "publisher": "News Corp introduces mandatory AI 'bootcamps' for journalists",
+    "published_time": "9 hours ago",
+    "published_datetime": "2025-05-18T04:40:53.339530",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.capitalbrief.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.339530",
+    "publisher": "Elon Musk's AI chatbot Grok brings up South African 'white genocide' claims in responses to unrelated questions",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.340608",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.nbcnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.340608",
+    "publisher": "Air Force launches AI Center of Excellence to speed up AI adoption",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.341597",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://federalnewsnetwork.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.341597",
+    "publisher": "Nvidia stock notches 16% weekly gain as trade news boosts AI chipmaker",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.342585",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://finance.yahoo.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.342585",
+    "publisher": "DeepSeek’s ‘Tech Madman’ Founder Is Threatening US Dominance in AI Race",
+    "published_time": "5 days ago",
+    "published_datetime": "2025-05-13T13:40:53.343388",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.bloomberg.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.344388",
+    "publisher": "UK needs more nuclear to power AI, says Amazon Web Services boss",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.345386",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.346406",
+    "publisher": "Trump wants coal to power AI data centers. The tech industry may need to make peace with that for now",
+    "published_time": "22 hours ago",
+    "published_datetime": "2025-05-17T15:40:53.346406",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.347399",
+    "publisher": "Judge slams lawyers for ‘bogus AI-generated research’",
+    "published_time": "4 days ago",
+    "published_datetime": "2025-05-14T13:40:53.347399",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.theverge.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.348642",
+    "publisher": "From Google to Expedia, AI travel agents planning future trip far beyond 'assistant' status",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.349578",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.349578",
+    "publisher": "‘World champion of appropriation’ Grayson Perry says he isn’t bothered by AI using his work",
+    "published_time": "4 hours ago",
+    "published_datetime": "2025-05-18T09:40:53.350597",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.350597",
+    "publisher": "AWS and HUMAIN announce a more than $5B investment to accelerate AI adoption in Saudi Arabia and globally",
+    "published_time": "5 days ago",
+    "published_datetime": "2025-05-13T13:40:53.351585",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aboutamazon.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.351585",
+    "publisher": "Workshop aims to help Owensboro small businesses embrace AI for content creation",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.owensborotimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.352599",
+    "publisher": "The Arm Evolution: From IP to Platform for the AI Era",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.353591",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://newsroom.arm.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.353591",
+    "publisher": "New agentic AI tools bring new threat: agent sprawl",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.355395",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cio.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.355395",
+    "publisher": "Walmart Prepares for a Future Where AI Shops for Consumers",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.pymnts.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.357387",
+    "publisher": "YouTube announces Gemini AI feature to target ads when viewers are most engaged",
+    "published_time": "4 days ago",
+    "published_datetime": "2025-05-14T13:40:53.357387",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.358387",
+    "publisher": "AI firm Cohere doubles annualized revenue to $100 million on enterprise focus",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.359388",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.360414",
+    "publisher": "AI regulation ban meets opposition from state attorneys general over risks to US consumers",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.361415",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.361415",
+    "publisher": "AI Warning: ‘You won’t lose your job to AI. You’ll lose it to someone who knows how to use it.’",
+    "published_time": "10 minutes ago",
+    "published_datetime": "2025-05-18T13:30:53.361415",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://euroweeklynews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.362638",
+    "publisher": "US and UAE collaborate on AI megaproject to boost regional innovation",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.363578",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cio.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.363578",
+    "publisher": "Lightchain AI Mainnet Launch in July to Introduce Decentralized AI Marketplace",
+    "published_time": "15 hours ago",
+    "published_datetime": "2025-05-17T22:40:53.364560",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://news.bitcoin.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.365388",
+    "publisher": "Scarlett Johansson takes aim at companies using her likeness, voice in AI",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.366421",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.foxnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.366421",
+    "publisher": "U.S., UAE agree on path for Emirates to buy top American AI chips, Trump says",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.367407",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.367407",
+    "publisher": "White House announces AI data center campus partnership with the UAE",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-15T13:40:53.368520",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.368520",
+    "publisher": "El Paso lawmaker pushes for AI regulation to combat child exploitation",
+    "published_time": "Yesterday",
+    "published_datetime": "Yesterday",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://kfoxtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.370585",
+    "publisher": "AI system can predict child malnutrition before it strikes",
+    "published_time": "22 hours ago",
+    "published_datetime": "2025-05-17T15:40:53.370585",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.earth.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.371520",
+    "publisher": "Beyond Nvidia, Four Things to Know at Asia’s Biggest Tech Show",
+    "published_time": "11 hours ago",
+    "published_datetime": "2025-05-18T02:40:53.371520",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.bloomberg.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.372611",
+    "publisher": "Trump administration rescinds curbs on AI chip exports to foreign markets",
+    "published_time": "4 days ago",
+    "published_datetime": "2025-05-14T13:40:53.373592",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://apnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-05-18T13:40:53.374387",
+    "publisher": "WNBA monitoring fans, with AI, to crack down on 'hate speech' amid Caitlin Clark-Angel Reese rivalry renewal",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-05-16T13:40:53.377482",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.foxnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  }
+]
