@@ -1,0 +1,19 @@
+Nitrification inhibitors (NIs), especially dicyandiamide (DCD) and 3,4-dimethylpyrazole phosphate (DMPP), have been extensively
+investigated to mitigate nitrogen (N) losses from the soil and thus improve crop productivity by enhancing N use efficiency.
+However, to provide crop and soil-specific guidelines about using these NIs, a quantitative assessment of their efficacy
+in mitigating gaseous emissions, worth for nitrate leaching, and improving crop productivity under different crops and soils is
+yet required. Therefore, based upon 146 peer-reviewed research studies, we conducted a meta-analysis to quantify the effect of
+DCD and DMPP on gaseous emissions, nitrate leaching, soil inorganic N, and crop productivity under different variates. The
+efficacy of the NIs in reducing the emissions of CO2,
+CH4,
+NO, and N2O
+highly depends on the crop, soil, and experiment types.
+The comparative efficacy of DCD in reducing N2O
+emission was higher than the DMPP under maize, grasses, and fallow soils
+in both organic and chemical fertilizer amended soils. The use of DCD was linked to increased NH3
+emission in vegetables,
+rice, and grasses. Depending upon the crop, soil, and fertilizer type, both the NIs decreased nitrate leaching from soils; however,
+DMPP was more effective. Nevertheless, the effect of DCD on crop productivity indicators, including N uptake, N use
+efficiency, and biomass/yield was higher than DMPP due to certain factors. Moreover, among soils, crops, and fertilizer types,
+the response by plant productivity indicators to the application of NIs ranged between 35 and 43%. Overall, the finding of this
+meta-analysis strongly suggests the use of DCD and DMPP while considering the crop, fertilizer, and soil types.
