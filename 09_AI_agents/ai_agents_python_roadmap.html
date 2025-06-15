@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete AI Agents with Python Guide - Codanics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        
+        .learning-path {
+            margin: 30px 0;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .path-header {
+            background: #f8f9fa;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .path-header:hover {
+            background: #e9ecef;
+        }
+        
+        .path-header h2 {
+            color: #495057;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .video-list {
+            padding: 20px;
+            display: none;
+        }
+        
+        .video-item {
+            background: #f8f9fa;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            display: flex;
+            gap: 20px;
+        }
+        
+        .video-thumbnail {
+            flex-shrink: 0;
+            width: 200px;
+            height: 120px;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        
+        .video-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+        
+        .video-thumbnail:hover img {
+            transform: scale(1.05);
+        }
+        
+        .video-content {
+            flex: 1;
+        }
+        
+        .video-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #495057;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+        
+        .video-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 10px;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+        
+        .video-description {
+            margin: 10px 0;
+            color: #6c757d;
+            line-height: 1.5;
+        }
+        
+        .timestamps {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+            border: 1px solid #dee2e6;
+        }
+        
+        .timestamps h4 {
+            color: #495057;
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+        
+        .timestamp-list {
+            font-size: 0.85em;
+            color: #667eea;
+            white-space: pre-line;
+            max-height: 200px;
+            overflow-y: auto;
+            line-height: 1.4;
+        }
+        
+        .watch-btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+        
+        .watch-btn:hover {
+            background: #764ba2;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .roadmap {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        
+        .roadmap h2 {
+            text-align: center;
+            color: #495057;
+            margin-bottom: 20px;
+        }
+        
+        .roadmap-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .roadmap-step {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid #dee2e6;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .roadmap-step:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102,126,234,0.15);
+        }
+        
+        .toggle-icon {
+            transition: transform 0.3s;
+        }
+        
+        .toggle-icon.rotated {
+            transform: rotate(180deg);
+        }
+
+        .slide.center {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 35px 25px;
+            margin: 40px auto 30px auto;
+            max-width: 700px;
+            box-shadow: 0 0 16px rgba(102,126,234,0.08);
+            text-align: center;
+        }
+        .slide.center h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+        .slide.center p {
+            color: #495057;
+            font-size: 1.08em;
+            margin: 12px 0;
+            line-height: 1.6;
+        }
+        .slide.center a {
+            color: #006994;
+            text-decoration: underline;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+        .slide.center a:hover {
+            color: #667eea;
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .stats {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .video-meta {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 Complete AI Agents with Python Guide</h1>
+            <p>Master AI Agent Development with Python - From Basics to Advanced</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">25+</div>
+                    <div>Learning Modules</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100+</div>
+                    <div>Hours Content</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">Free</div>
+                    <div>Complete Guide</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="roadmap">
+            <h2>🎯 Complete AI Agents Learning Roadmap</h2>
+            <div class="roadmap-steps">
+                <div class="roadmap-step" onclick="scrollToSection('foundation')">
+                    <div class="step-number">1</div>
+                    <h3>Foundation</h3>
+                    <p>Python, APIs, Web Scraping</p>
+                </div>
+                <div class="roadmap-step" onclick="scrollToSection('agents-basics')">
+                    <div class="step-number">2</div>
+                    <h3>AI Agents Basics</h3>
+                    <p>OpenAI, LangChain, CrewAI</p>
+                </div>
+                <div class="roadmap-step" onclick="scrollToSection('advanced-agents')">
+                    <div class="step-number">3</div>
+                    <h3>Advanced Agents</h3>
+                    <p>Multi-Agent Systems, Tools</p>
+                </div>
+                <div class="roadmap-step" onclick="scrollToSection('deployment')">
+                    <div class="step-number">4</div>
+                    <h3>Deployment</h3>
+                    <p>FastAPI, Streamlit, Docker</p>
+                </div>
+                <div class="roadmap-step" onclick="scrollToSection('projects')">
+                    <div class="step-number">5</div>
+                    <h3>Real Projects</h3>
+                    <p>Business Applications</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide center" style="margin-bottom: 36px;">
+            <h2>What Will You Learn in This AI Agents Guide?</h2>
+            <p>
+                This comprehensive guide will take you from zero to hero in AI Agent development with Python. You'll learn to build intelligent, autonomous agents that can perform complex tasks and solve real-world problems.
+            </p>
+            <ul style="text-align: left; display: inline-block; margin: 18px auto 0 auto; padding-left: 0; font-size: 1.08em; color: #667eea; line-height: 1.7;">
+                <li><strong>Master Python for AI:</strong> Learn advanced Python concepts, API integrations, and web scraping techniques essential for AI development.</li>
+                <li><strong>Build Intelligent Agents:</strong> Create AI agents using OpenAI GPT models, LangChain framework, and CrewAI for multi-agent systems.</li>
+                <li><strong>Implement RAG Systems:</strong> Develop Retrieval-Augmented Generation systems for knowledge-based AI applications.</li>
+                <li><strong>Create Multi-Agent Teams:</strong> Build collaborative AI agent teams that can work together to solve complex problems.</li>
+                <li><strong>Integrate External Tools:</strong> Connect your agents with APIs, databases, and various external services and tools.</li>
+                <li><strong>Deploy Production Apps:</strong> Learn to deploy your AI agents using FastAPI, Streamlit, and containerization with Docker.</li>
+                <li><strong>Real Business Applications:</strong> Build practical AI solutions for customer service, content creation, data analysis, and automation.</li>
+                <li><strong>Advanced AI Techniques:</strong> Implement function calling, prompt engineering, and fine-tuning for specialized agent behaviors.</li>
+            </ul>
+            <p>
+                <strong>By the end of this guide, you'll have:</strong><br>
+                <span style="color: #495057;">
+                    • Complete understanding of AI Agent architecture and design patterns<br>
+                    • Hands-on experience building various types of AI agents<br>
+                    • A portfolio of real-world AI agent projects<br>
+                    • Skills to deploy and maintain AI agents in production
+                </span>
+            </p>
+            <p style="margin-top: 16px;">
+                <span style="color: #667eea; font-weight: bold;">Start building the future with AI Agents today!</span>
+            </p>
+        </div>
+
+        <!-- Foundation -->
+        <div class="learning-path" id="foundation">
+            <div class="path-header" onclick="togglePath(this)">
+                <h2>🐍 Python Foundation for AI Agents <span class="toggle-icon">▼</span></h2>
+            </div>
+            <div class="video-list">
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 1: Python Fundamentals & Environment Setup</div>
+                        <div class="video-description">
+                            Master Python basics, virtual environments, and development setup for AI agent development.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Learning Objectives:</h4>
+                            <div class="timestamp-list">• Python syntax and data structures
+• Virtual environments and package management
+• IDE setup (VS Code, PyCharm)
+• Git and version control basics
+• Python libraries for AI development</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 2: Advanced Python Concepts</div>
+                        <div class="video-description">
+                            Learn object-oriented programming, decorators, context managers, and async programming.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Topics Covered:</h4>
+                            <div class="timestamp-list">• Classes and inheritance
+• Decorators and metaclasses
+• Context managers
+• Async/await programming
+• Error handling and logging</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 3: API Integration & Web Scraping</div>
+                        <div class="video-description">
+                            Master REST APIs, HTTP requests, and web scraping techniques for data collection.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Skills You'll Gain:</h4>
+                            <div class="timestamp-list">• REST API consumption with requests
+• Authentication methods (API keys, OAuth)
+• Web scraping with BeautifulSoup and Scrapy
+• Rate limiting and ethical scraping
+• Data parsing and validation</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Agents Basics -->
+        <div class="learning-path" id="agents-basics">
+            <div class="path-header" onclick="togglePath(this)">
+                <h2>🤖 AI Agents Fundamentals <span class="toggle-icon">▼</span></h2>
+            </div>
+            <div class="video-list">
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 4: Introduction to AI Agents</div>
+                        <div class="video-description">
+                            Understand AI agent concepts, architectures, and the ecosystem of tools and frameworks.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Core Concepts:</h4>
+                            <div class="timestamp-list">• What are AI agents and how they work
+• Agent architectures and design patterns
+• Reactive vs. proactive agents
+• Agent communication protocols
+• Introduction to LLMs and their capabilities</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 5: OpenAI API Mastery</div>
+                        <div class="video-description">
+                            Deep dive into OpenAI API, GPT models, function calling, and prompt engineering.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 OpenAI Skills:</h4>
+                            <div class="timestamp-list">• OpenAI API setup and authentication
+• Working with GPT-3.5 and GPT-4 models
+• Function calling and tool usage
+• Prompt engineering best practices
+• Managing costs and rate limits</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 6: LangChain Framework</div>
+                        <div class="video-description">
+                            Learn LangChain for building complex AI applications with chains, agents, and memory.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 LangChain Components:</h4>
+                            <div class="timestamp-list">• LangChain architecture and components
+• Building chains and pipelines
+• Memory systems for conversation
+• Document loaders and text splitters
+• Vector stores and embeddings</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 7: Building Your First AI Agent</div>
+                        <div class="video-description">
+                            Create your first functional AI agent with basic reasoning and tool usage capabilities.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Project Goals:</h4>
+                            <div class="timestamp-list">• Design agent architecture
+• Implement basic reasoning loop
+• Add tool integration capabilities
+• Handle user interactions
+• Error handling and graceful failures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Advanced AI Agents -->
+        <div class="learning-path" id="advanced-agents">
+            <div class="path-header" onclick="togglePath(this)">
+                <h2>🚀 Advanced AI Agent Development <span class="toggle-icon">▼</span></h2>
+            </div>
+            <div class="video-list">
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 8: RAG (Retrieval-Augmented Generation)</div>
+                        <div class="video-description">
+                            Implement RAG systems for knowledge-based AI agents with vector databases.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 RAG Implementation:</h4>
+                            <div class="timestamp-list">• Vector databases (Pinecone, Chroma, FAISS)
+• Document embedding strategies
+• Retrieval algorithms and optimization
+• Combining retrieval with generation
+• Evaluation metrics for RAG systems</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 9: CrewAI Multi-Agent Systems</div>
+                        <div class="video-description">
+                            Build collaborative AI agent teams using CrewAI framework for complex task coordination.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Multi-Agent Concepts:</h4>
+                            <div class="timestamp-list">• CrewAI framework overview
+• Agent roles and responsibilities
+• Task delegation and coordination
+• Inter-agent communication
+• Conflict resolution in multi-agent systems</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 10: Advanced Tool Integration</div>
+                        <div class="video-description">
+                            Connect AI agents with external APIs, databases, and specialized tools for enhanced capabilities.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Tool Integration:</h4>
+                            <div class="timestamp-list">• Custom tool development
+• Database integration (SQL, NoSQL)
+• External API connections
+• File system operations
+• Email and communication tools</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 11: Agent Memory & State Management</div>
+                        <div class="video-description">
+                            Implement sophisticated memory systems and state management for persistent AI agents.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Memory Systems:</h4>
+                            <div class="timestamp-list">• Short-term and long-term memory
+• Conversation history management
+• Knowledge graph integration
+• State persistence strategies
+• Memory optimization techniques</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deployment & Production -->
+        <div class="learning-path" id="deployment">
+            <div class="path-header" onclick="togglePath(this)">
+                <h2>🌐 Deployment & Production <span class="toggle-icon">▼</span></h2>
+            </div>
+            <div class="video-list">
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 12: FastAPI for AI Agent APIs</div>
+                        <div class="video-description">
+                            Build robust REST APIs for your AI agents using FastAPI framework.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 API Development:</h4>
+                            <div class="timestamp-list">• FastAPI fundamentals
+• Request/response models with Pydantic
+• Authentication and authorization
+• API documentation with OpenAPI
+• Error handling and validation</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 13: Streamlit Web Applications</div>
+                        <div class="video-description">
+                            Create user-friendly web interfaces for your AI agents using Streamlit.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Web Interface Development:</h4>
+                            <div class="timestamp-list">• Streamlit components and layouts
+• Interactive widgets and forms
+• Session state management
+• File uploads and downloads
+• Deployment to Streamlit Cloud</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 14: Containerization with Docker</div>
+                        <div class="video-description">
+                            Package and deploy your AI agents using Docker containers for scalability.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Containerization Skills:</h4>
+                            <div class="timestamp-list">• Docker fundamentals and best practices
+• Writing efficient Dockerfiles
+• Docker Compose for multi-service apps
+• Environment variable management
+• Container orchestration basics</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 15: Cloud Deployment Strategies</div>
+                        <div class="video-description">
+                            Deploy your AI agents to cloud platforms like AWS, Azure, and Google Cloud.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Cloud Deployment:</h4>
+                            <div class="timestamp-list">• Cloud platform comparison
+• Serverless deployment options
+• Container orchestration services
+• Auto-scaling and load balancing
+• Monitoring and logging setup</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Real-World Projects -->
+        <div class="learning-path" id="projects">
+            <div class="path-header" onclick="togglePath(this)">
+                <h2>🏗️ Real-World AI Agent Projects <span class="toggle-icon">▼</span></h2>
+            </div>
+            <div class="video-list">
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 16: Customer Service AI Agent</div>
+                        <div class="video-description">
+                            Build an intelligent customer service agent with ticket management and escalation.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Project Features:</h4>
+                            <div class="timestamp-list">• Natural language understanding
+• Knowledge base integration
+• Ticket creation and tracking
+• Escalation to human agents
+• Multi-channel support (chat, email)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 17: Content Creation Agent</div>
+                        <div class="video-description">
+                            Develop an AI agent for automated content creation, editing, and optimization.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Content Capabilities:</h4>
+                            <div class="timestamp-list">• Blog post generation
+• Social media content creation
+• SEO optimization
+• Image and video integration
+• Content scheduling and publishing</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 18: Data Analysis AI Agent</div>
+                        <div class="video-description">
+                            Create an intelligent data analyst agent that can process and visualize data automatically.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Analytics Features:</h4>
+                            <div class="timestamp-list">• Automated data cleaning
+• Statistical analysis and insights
+• Interactive visualizations
+• Report generation
+• Anomaly detection</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 19: Research Assistant Agent</div>
+                        <div class="video-description">
+                            Build a comprehensive research assistant that can gather, analyze, and synthesize information.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Research Capabilities:</h4>
+                            <div class="timestamp-list">• Web research and fact-checking
+• Academic paper analysis
+• Information synthesis
+• Citation management
+• Literature review generation</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-content">
+                        <div class="video-title">Week 20: Final Capstone Project</div>
+                        <div class="video-description">
+                            Combine all learned concepts to build a comprehensive AI agent system for a real business use case.
+                        </div>
+                        <div class="timestamps">
+                            <h4>📋 Capstone Requirements:</h4>
+                            <div class="timestamp-list">• Multi-agent system architecture
+• Full-stack web application
+• Cloud deployment
+• Performance monitoring
+• User documentation and testing</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin: 40px 0; padding: 30px; background: #f8f9fa; border-radius: 10px;">
+            <h2 style="color: #495057;">🚀 Start Building AI Agents Today!</h2>
+            <p style="color: #6c757d; margin: 15px 0;">Master the future of AI development with hands-on Python projects and real-world applications.</p>
+            <p style="color: #6c757d;">Join the AI Agent revolution and build intelligent systems that can think and act autonomously!</p>
+            <a href="https://www.youtube.com/@Codanics" class="watch-btn" target="_blank" style="font-size: 1.1em; margin-top: 15px;">🎯 Subscribe to Codanics Channel</a>
+        </div>
+
+        <div class="slide center">
+            <h2>Ready to Master AI Agents?</h2>
+            <p>
+                Take your AI development skills to the next level with our comprehensive course:<br>
+                <a href="https://codanics.com/courses/dsaamp/" target="_blank">
+                    👉 www.codanics.com/dsaamp
+                </a>
+            </p>
+            <div class="concept-card">
+                <h4>🎥 Watch: 4-Months Data Science to AI Agents Program</h4>
+                <p>Get an introduction to the complete AI Agent development journey:</p>
+                <div class="center">
+                    <a href="https://www.youtube.com/watch?v=DcMlSm92fpA" target="_blank">
+                        <img src="https://img.youtube.com/vi/DcMlSm92fpA/maxresdefault.jpg" alt="AI Agents Development Program" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(102,126,234,0.08); transition: transform 0.2s; max-width: 100%; height: auto;">
+                    </a>
+                    <p>
+                        <a href="https://www.youtube.com/watch?v=DcMlSm92fpA" target="_blank" style="color: #ff0000; font-weight: bold;">
+                            🎬 Complete AI Agents Development Mentorship Program (DSAAMP)
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <p>This program will guide you through building production-ready AI agents that can revolutionize businesses and industries.</p>
+            <p>The future is autonomous. Let's build it together! 🤖✨</p>
+        </div>
+
+        <!-- Author and Social Media Section -->
+        <div class="slide center" style="margin-bottom: 24px;">
+            <h2 style="font-family: 'Poppins', Arial, sans-serif; font-weight: bold; color: #4A90E2;">👨‍💻 Author: Dr. Muhammad Aammar Tufail <span class="flag-emoji">🇵🇰</span></h2>
+            <div style="margin: 18px 0;">
+                <a href="https://github.com/AammarTufail" target="_blank" style="margin: 0 5px;">
+                    <img src="https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github" alt="GitHub Profile">
+                </a>
+                <a href="https://www.kaggle.com/muhammadaammartufail" target="_blank" style="margin: 0 5px;">
+                    <img src="https://img.shields.io/badge/Kaggle-Profile-blue?style=for-the-badge&logo=kaggle" alt="Kaggle Profile">
+                </a>
+                <a href="https://www.linkedin.com/in/dr-muhammad-aammar-tufail-02471213b/" target="_blank" style="margin: 0 5px;">
+                    <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile">
+                </a>
+            </div>
+            <div style="margin: 12px 0;">
+                <a href="https://www.youtube.com/@codanics" target="_blank" style="margin: 0 5px;">
+                    <img src="https://img.shields.io/badge/YouTube-Profile-red?style=for-the-badge&logo=youtube" alt="YouTube Profile">
+                </a>
+                <a href="https://www.facebook.com/aammar.tufail" target="_blank" style="margin: 0 5px;">
+                    <img src="https://img.shields.io/badge/Facebook-Profile-blue?style=for-the-badge&logo=facebook" alt="Facebook Profile">
+                </a>
+                <a href="https://www.tiktok.com/@draammar" target="_blank" style="margin: 0 5px;">
+                    <img src="https://img.shields.io/badge/TikTok-Profile-black?style=for-the-badge&logo=tiktok" alt="TikTok Profile">
+                </a>
+            </div>
+            <div style="margin: 12px 0;">
+                <a href="https://twitter.com/aammar_tufail" target="_blank" style="margin: 0 5px;">
+                    <img src="https://img.shields.io/badge/Twitter-Profile-blue?style=for-the-badge&logo=twitter" alt="Twitter Profile">
+                </a>
+                <a href="https://www.instagram.com/aammartufail/" target="_blank" style="margin: 0 5px;">
+                    <img src="https://img.shields.io/badge/Instagram-Profile-blue?style=for-the-badge&logo=instagram" alt="Instagram Profile">
+                </a>
+                <a href="mailto:aammar@codanics.com" target="_blank" style="margin: 0 5px;">
+                    <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=email" alt="Email Contact">
+                </a>
+            </div>
+            <div style="margin: 18px 0; color: #666;">
+                <p><strong>🤖 AI Agent Developer & AI Educator</strong></p>
+                <p><em>Building the Future with Autonomous AI Systems</em></p>
+                <p><strong>#AIAgents #PythonAI #CrewAI #LangChain</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function togglePath(header) {
+            const videoList = header.nextElementSibling;
+            const icon = header.querySelector('.toggle-icon');
+            
+            if (videoList.style.display === 'none' || videoList.style.display === '') {
+                videoList.style.display = 'block';
+                icon.classList.add('rotated');
+                icon.textContent = '▲';
+            } else {
+                videoList.style.display = 'none';
+                icon.classList.remove('rotated');
+                icon.textContent = '▼';
+            }
+        }
+
+        function scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+                
+                // Auto-expand the section if it's collapsed
+                const pathHeader = element.querySelector('.path-header');
+                const videoList = element.querySelector('.video-list');
+                if (pathHeader && videoList && videoList.style.display === 'none') {
+                    togglePath(pathHeader);
+                }
+            }
+        }
+
+        // Auto-expand all sections on load
+        document.addEventListener('DOMContentLoaded', function() {
+            const allHeaders = document.querySelectorAll('.learning-path .path-header');
+            allHeaders.forEach(header => {
+                const videoList = header.nextElementSibling;
+                if (videoList && videoList.style.display !== 'block') {
+                    togglePath(header);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
