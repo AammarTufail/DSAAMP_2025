@@ -1,0 +1,14 @@
+Research Query: Where is Pakistan located?
+Generated on: 2025-06-26 14:04:00
+==================================================
+
+Topic: Location of Pakistan
+
+Summary:
+Pakistan is located in South Asia and shares borders with India, Iran, Afghanistan, and China. Geographically, it lies between latitudes 24° and 37° N, and longitudes 60° and 77° E. The country has a diverse geography, including mountains, plains, and deserts.
+
+Sources Used:
+1. Wikipedia: Pakistan
+2. Wikipedia: Geography of Pakistan
+
+Tools Used: wikipedia, search
