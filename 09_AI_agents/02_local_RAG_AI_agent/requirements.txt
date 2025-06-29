@@ -1,6 +1,7 @@
-langchain
-langchain-ollama
-langchain-chroma
-pandas
+langchain_chroma==0.2.4
+langchain_core==0.3.66
+langchain_ollama==0.3.3
+pandas==2.3.0
+urllib3==2.5.0
 ollama>=0.1.0
 httpx>=0.24.0
