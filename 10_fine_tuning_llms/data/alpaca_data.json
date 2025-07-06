@@ -1,0 +1,12 @@
+[
+  {
+    "instruction": "What is photosynthesis?",
+    "input": "",
+    "output": "Photosynthesis is the process by which green plants convert sunlight into chemical energy."
+  },
+  {
+    "instruction": "Translate 'Good morning' to Spanish.",
+    "input": "",
+    "output": "Buenos d\u00edas"
+  }
+]
