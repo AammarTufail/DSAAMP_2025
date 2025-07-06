@@ -29,12 +29,11 @@ tokenized.set_format(type="torch", columns=["input_ids", "attention_mask"])
 
 # LoRA config
 lora_config = LoraConfig(
-    r=8,
-    lora_alpha=32,
-    lora_dropout=0.1,
-    bias="none",
-    task_type=TaskType.CAUSAL_LM
-)
+    r=8, # Rank of the LoRA layers
+    lora_alpha=32, # Scaling factor for the LoRA layers
+    lora_dropout=0.1, # Dropout rate for the LoRA layers
+    bias="none", # Bias handling
+    task_type=TaskType.CAUSAL_LM) # Task type for causal language modeling
 model = get_peft_model(model, lora_config)
 
 # Training
@@ -44,7 +43,7 @@ args = TrainingArguments(
     num_train_epochs=3,
     save_strategy="epoch",
     logging_steps=10,
-    fp16=False,
+    fp16=False, # Set to True if using a GPU with FP16 support
     report_to="none"
 )
 
